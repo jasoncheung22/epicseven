@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = https://github.com/jasoncheung22/epicseven.git
+	branch = gh-pages
