@@ -3,7 +3,7 @@
     <div class="form-row">
       <div class="col-md-3">
         <div class="form-group">
-          <SelectCharacter v-model="hero.name" :title="$t('firstHero')" />
+          <p></p>
         </div>
       </div>
       <div class="col-md-3">

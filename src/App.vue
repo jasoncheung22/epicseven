@@ -42,18 +42,21 @@
           <MyHero :hero="firstHero" />
           <hr />
           <Enemy
+            :uid="'E1'"
             :enemy="enemiesFirstHero.first"
             :label-hero="$t('enemiesFirstHero')"
             :label-artifact="$t('enemiesFirstArtifact')"
           />
           <hr />
           <Enemy
+            :uid="'E2'"
             :enemy="enemiesFirstHero.second"
             :label-hero="$t('enemiesSecondHero')"
             :label-artifact="$t('enemiesSecondArtifact')"
           />
           <hr />
           <Enemy
+            :uid="'E3'"
             :enemy="enemiesFirstHero.third"
             :label-hero="$t('enemiesThirdHero')"
             :label-artifact="$t('enemiesThirdArtifact')"
@@ -63,18 +66,21 @@
           <MyHero :hero="secondHero" />
           <hr />
           <Enemy
+            :uid="'E4'"
             :enemy="enemiesSecondHero.first"
             :label-hero="$t('enemiesFirstHero')"
             :label-artifact="$t('enemiesFirstArtifact')"
           />
           <hr />
           <Enemy
+            :uid="'E5'"
             :enemy="enemiesSecondHero.second"
             :label-hero="$t('enemiesSecondHero')"
             :label-artifact="$t('enemiesSecondArtifact')"
           />
           <hr />
           <Enemy
+            :uid="'E6'"
             :enemy="enemiesSecondHero.third"
             :label-hero="$t('enemiesThirdHero')"
             :label-artifact="$t('enemiesThirdArtifact')"

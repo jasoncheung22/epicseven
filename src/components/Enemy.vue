@@ -3,7 +3,7 @@
     <div class="form-row">
       <div class="col-md-3">
         <div class="form-group">
-          <SelectCharacter v-model="enemy.name" :title="labelHero" />
+          <SelectCharacter v-model="enemy.name" :title="labelHero" :huid="uid" />
         </div>
       </div>
       <div class="col-md-3">
@@ -76,6 +76,7 @@ export default Vue.extend({
     SelectArtifact: ComponentSelectArtifact,
   },
   props: {
+    uid: String,
     enemy: Object as PropType<Enemy>,
     labelHero: String,
     labelArtifact: String,
