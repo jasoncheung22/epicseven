@@ -156,6 +156,7 @@ nicknames['watcher-schuri'] = '光修里 光修理 光修裏';
 nicknames.yufine = '木龙 木龍';
 nicknames.yuna = '学生会长 學生會長';
 nicknames.zerato = '水杰 冰杰 冰法 水傑 冰傑';
+nicknames.belian = 'belian';
 // artifacts
 nicknames['alexas-basket'] = '大公鸡 大攻击 大公雞 大攻擊';
 nicknames.aurius = '分摊 分攤';

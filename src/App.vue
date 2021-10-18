@@ -315,8 +315,8 @@ export default Vue.extend({
       let content = '';
       if (enemy.name) {
         content += enemy.name;
-        content += enemy.artifact ? ` - ${enemy.artifact}` : '';
-        content += enemy.hp ? ` - ${this.formatHp(enemy.hp)} ${this.$t('hp')}` : '';
+        content += enemy.artifact ? ` _ ${enemy.artifact}` : '';
+        content += enemy.hp ? ` _ ${this.formatHp(enemy.hp)} ${this.$t('hp')}` : '';
         if (enemy.cr && baseSpeed) {
           let { cr }: { cr: number } = enemy;
           cr = +cr;
@@ -337,11 +337,11 @@ export default Vue.extend({
           const speedmin = Math.round(crMin * baseSpeed);
           const speedmax = Math.round(crMax * baseSpeed);
           const speedRange = `${speedmin}-${speedmax}`;
-          content += ` - ${speedRange} ${this.$t('speed')}`;
+          content += ` _ ${speedRange} ${this.$t('speed')}`;
         }
-        content += enemy.counter ? ` - ${this.$t('setCounter')}` : '';
-        content += enemy.immunity ? ` - ${this.$t('setImmunity')}` : '';
-        content += enemy.infos ? ` - ${enemy.infos}` : '';
+        content += enemy.counter ? ` _ ${this.$t('setCounter')}` : '';
+        content += enemy.immunity ? ` _ ${this.$t('setImmunity')}` : '';
+        content += enemy.infos ? ` _ ${enemy.infos}` : '';
         content += '\r\n';
       }
       return content;
@@ -377,7 +377,7 @@ export default Vue.extend({
       }
     },
     resetForm(): void {
-      document.location.reload(true);
+      document.location.reload();
       $('.toast').toast('hide');
       $('#resettoast').toast('show');
     },
