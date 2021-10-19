@@ -86,7 +86,7 @@
                         v-model="selectedRarity"
                         checked
                       />
-                      3<img src="assets/images/Star.png" />
+                      3<img src="assets/images/star.png" />
                     </label>
                     <label class="btn btn-primary">
                       <input
@@ -97,7 +97,7 @@
                         value="4"
                         v-model="selectedRarity"
                       />
-                      4<img src="assets/images/Star.png" />
+                      4<img src="assets/images/star.png" />
                     </label>
                     <label class="btn btn-primary">
                       <input
@@ -108,7 +108,7 @@
                         value="5"
                         v-model="selectedRarity"
                       />
-                      5<img src="assets/images/Star.png" />
+                      5<img src="assets/images/star.png" />
                     </label>
                   </div>
                 </div>
