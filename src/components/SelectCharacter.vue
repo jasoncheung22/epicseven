@@ -181,7 +181,7 @@
               data-width="100%"
               @change="select($event)"
             >
-              <option v-for="item in characters" :key="item.name" :data-tokens="getTokens(item)">
+              <option v-for="item in getCharacter" :key="item.name" :data-tokens="getTokens(item)">
                 {{ item.name }}
               </option>
             </select>
@@ -210,7 +210,7 @@ export default Vue.extend({
       nicknames,
       modalid: 'temp',
       selectedCharacters: '',
-      selectedAttributes: 'ice',
+      selectedAttributes: 'fire',
       selectedRarity: '3',
       selectedRole: 'warrior',
     };
@@ -219,17 +219,16 @@ export default Vue.extend({
     this.characters = this.getItems();
     this.modalid = this.huid;
   },
+  computed: {
+    getCharacter(): Array<any> {
+      setTimeout(() => {
+        $('.selectpicker').selectpicker('refresh');
+      }, 100);
+      return this.getItems();
+    },
+  },
   watch: {
     title(): void {
-      this.characters = this.getItems();
-    },
-    selectedAttributes(): void {
-      this.characters = this.getItems();
-    },
-    selectedRarity(): void {
-      this.characters = this.getItems();
-    },
-    selectedRole(): void {
       this.characters = this.getItems();
     },
   },
@@ -268,7 +267,6 @@ export default Vue.extend({
           characters[i].attribute === this.selectedAttributes &&
           characters[i].role === this.selectedRole
         ) {
-          console.log(characters[i].name);
           filteredCharacters.push(characters[i]);
         }
       }

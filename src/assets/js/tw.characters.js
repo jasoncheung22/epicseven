@@ -250,6 +250,7 @@ export const tw = [
   { _id: 'pavel', name: '\u5e15\u8c9d\u723e', rarity: 5, role: 'ranger', attribute: 'wind', zodiac: 'maiden' },
   { _id: 'politis', name: '\u4f5b\u91cc\u8482\u7d72', rarity: 5, role: 'mage', attribute: 'fire', zodiac: 'twins' },
   { _id: 'ram', name: '\u62c9\u59c6', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'gemini' },
+  { _id: 'ran', name: '\u5d50', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'aries' },
   { _id: 'ravi', name: '\u863f\u83f2', rarity: 5, role: 'warrior', attribute: 'fire', zodiac: 'goat' },
   { _id: 'ray', name: '\u96f7\u4f0a', rarity: 5, role: 'manauser', attribute: 'wind', zodiac: 'bull' },
   { _id: 'rem', name: '\u857e\u59c6', rarity: 5, role: 'warrior', attribute: 'ice', zodiac: 'scorpio' },
