@@ -145,6 +145,16 @@
                         name="options"
                         id="option3"
                         autocomplete="off"
+                        value="ranger"
+                        v-model="selectedRole"
+                      /><img src="assets/images/Ranger.png" />
+                    </label>
+                    <label class="btn btn-primary">
+                      <input
+                        type="radio"
+                        name="options"
+                        id="option4"
+                        autocomplete="off"
                         value="mage"
                         v-model="selectedRole"
                       /><img src="assets/images/Mage.png" />
@@ -153,7 +163,7 @@
                       <input
                         type="radio"
                         name="options"
-                        id="option4"
+                        id="option5"
                         autocomplete="off"
                         value="manauser"
                         v-model="selectedRole"
@@ -163,7 +173,7 @@
                       <input
                         type="radio"
                         name="options"
-                        id="option5"
+                        id="option6"
                         autocomplete="off"
                         value="assassin"
                         v-model="selectedRole"

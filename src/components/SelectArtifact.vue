@@ -16,7 +16,7 @@
           </div>
           <div class="modal-body">
             <div class="form-row">
-              <div class="col-md-7">
+              <div class="col-md-8">
                 <div class="form-group">
                   <div class="btn-group btn-group-toggle" data-toggle="buttons" id="role">
                     <label class="btn btn-primary active">
@@ -30,7 +30,7 @@
                         checked
                       /><img src="assets/images/Common.png" />
                     </label>
-                    <label class="btn btn-primary active">
+                    <label class="btn btn-primary">
                       <input
                         type="radio"
                         name="options"
@@ -56,6 +56,16 @@
                         name="options"
                         id="option4"
                         autocomplete="off"
+                        value="ranger"
+                        v-model="selectedRole"
+                      /><img src="assets/images/Ranger.png" />
+                    </label>
+                    <label class="btn btn-primary">
+                      <input
+                        type="radio"
+                        name="options"
+                        id="option5"
+                        autocomplete="off"
                         value="mage"
                         v-model="selectedRole"
                       /><img src="assets/images/Mage.png" />
@@ -64,7 +74,7 @@
                       <input
                         type="radio"
                         name="options"
-                        id="option5"
+                        id="option6"
                         autocomplete="off"
                         value="manauser"
                         v-model="selectedRole"
@@ -74,7 +84,7 @@
                       <input
                         type="radio"
                         name="options"
-                        id="option6"
+                        id="option7"
                         autocomplete="off"
                         value="assassin"
                         v-model="selectedRole"
