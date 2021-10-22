@@ -126,7 +126,7 @@
           </div>
           <div class="row">
             <div class="col-md-8" ref="capture" style="color: #eee">
-              <p>{{ tempReport }}</p>
+              <span ref="capturetext" v-html="tempReport"></span>
             </div>
           </div>
         </div>
@@ -367,7 +367,7 @@ export default Vue.extend({
         content += enemy.counter ? `-【 ${this.$t('setCounter')} 】` : '';
         content += enemy.immunity ? `-【 ${this.$t('setImmunity')} 】` : '';
         content += enemy.infos ? `-【 ${enemy.infos} 】` : '';
-        content += '\r\n';
+        content += '\n';
       }
       return content;
     },
@@ -408,11 +408,16 @@ export default Vue.extend({
     },
     downloadVisualReport(): void {
       this.tempReport = this.report;
+      this.tempReport = this.tempReport.replace(/(\r\n|\n|\r)/gm, '<br/>');
       const capture = this.$refs.capture as HTMLElement;
       const reportimage = document.querySelector('#reportimage') as HTMLElement;
       setTimeout(() => {
         html2canvas(capture, { backgroundColor: '#343a40' })
           .then((canvas) => {
+            const a = document.createElement('a');
+            a.href = canvas.toDataURL('image/jpeg').replace('image/jpeg', 'image/octet-stream');
+            a.download = 'report.jpg';
+            a.click();
             reportimage.appendChild(canvas);
             this.tempReport = '';
           })
