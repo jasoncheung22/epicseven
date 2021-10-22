@@ -3,6 +3,16 @@
   color: #eee !important;
 }
 
+.dark .modal-header{
+  background-color: #343a40 !important;
+  color: #eee !important;
+}
+
+.dark .modal-body{
+  background-color: #343a40 !important;
+  color: #eee !important;
+}
+
 .dark .navbar-brand {
   color: #eee !important;
 }

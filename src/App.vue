@@ -326,9 +326,9 @@ export default Vue.extend({
     updateLine(enemy: Enemy, baseSpeed: number, crBonus = 0, crPush = 0, crPushAlly = 0, speedDown = false): string {
       let content = '';
       if (enemy.name) {
-        content += enemy.name;
-        content += enemy.artifact ? ` _ ${enemy.artifact}` : '';
-        content += enemy.hp ? ` _ ${this.formatHp(enemy.hp)} ${this.$t('hp')}` : '';
+        content += `【 ${enemy.name} 】`;
+        content += enemy.artifact ? ` -【 ${enemy.artifact}` : '';
+        content += enemy.hp ? ` 】-【 ${this.formatHp(enemy.hp)} ${this.$t('hp')} 】` : '';
         if (enemy.cr && baseSpeed) {
           let { cr }: { cr: number } = enemy;
           cr = +cr;
@@ -349,11 +349,11 @@ export default Vue.extend({
           const speedmin = Math.round(crMin * baseSpeed);
           const speedmax = Math.round(crMax * baseSpeed);
           const speedRange = `${speedmin}-${speedmax}`;
-          content += ` _ ${speedRange} ${this.$t('speed')}`;
+          content += `-【 ${speedRange} ${this.$t('speed')} 】`;
         }
-        content += enemy.counter ? ` _ ${this.$t('setCounter')}` : '';
-        content += enemy.immunity ? ` _ ${this.$t('setImmunity')}` : '';
-        content += enemy.infos ? ` _ ${enemy.infos}` : '';
+        content += enemy.counter ? `-【 ${this.$t('setCounter')} 】` : '';
+        content += enemy.immunity ? `-【 ${this.$t('setImmunity')} 】` : '';
+        content += enemy.infos ? `-【 ${enemy.infos} 】` : '';
         content += '\r\n';
       }
       return content;
