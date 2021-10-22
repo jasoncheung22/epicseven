@@ -18,6 +18,7 @@ export const tw = {
   heroesSaved: '你輸入的英雄以及速度會保存在本地',
   copyText: '複製到剪貼簿',
   copyTextSL: '複製到剪貼簿(單行)',
+  copyTextImage: '複製為圖片',
   reset: '數據重置',
   copyToast: '已複製到剪貼簿!',
   resetToast: '數據已重置!',

@@ -105,6 +105,11 @@
               </button>
             </div>
             <div class="p-2">
+              <button class="btn btn-secondary" v-on:click="downloadVisualReport">
+                {{ $t('copyTextImage') }}
+              </button>
+            </div>
+            <div class="p-2">
               <button class="btn btn-secondary" v-on:click="copyToClipboardSL">
                 {{ $t('copyTextSL') }}
               </button>
@@ -114,8 +119,14 @@
             <div class="col-md-12">
               <div class="form-group">
                 <textarea id="report" v-model="report" class="form-control mt-3" style="height: 300px" />
+                <div id="reportimage" />
                 <textarea id="sl" style="opacity: 0" />
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8" ref="capture" style="color: #eee">
+              <p>{{ tempReport }}</p>
             </div>
           </div>
         </div>
@@ -128,6 +139,7 @@
 import $ from 'jquery';
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
+import html2canvas from 'html2canvas';
 import ComponentMyHero, { Hero } from './components/MyHero.vue';
 import ComponentEnemy, { Enemy } from './components/Enemy.vue';
 import ComponentNavbar from './components/Navbar.vue';
@@ -177,6 +189,7 @@ export default Vue.extend({
       },
       tower: '',
       report: '',
+      tempReport: '',
     };
   },
   watch: {
@@ -327,8 +340,8 @@ export default Vue.extend({
       let content = '';
       if (enemy.name) {
         content += `【 ${enemy.name} 】`;
-        content += enemy.artifact ? ` -【 ${enemy.artifact}` : '';
-        content += enemy.hp ? ` 】-【 ${this.formatHp(enemy.hp)} ${this.$t('hp')} 】` : '';
+        content += enemy.artifact ? ` -【 ${enemy.artifact} 】-` : '';
+        content += enemy.hp ? `【 ${this.formatHp(enemy.hp)} ${this.$t('hp')} 】` : '';
         if (enemy.cr && baseSpeed) {
           let { cr }: { cr: number } = enemy;
           cr = +cr;
@@ -392,6 +405,22 @@ export default Vue.extend({
       document.location.reload();
       $('.toast').toast('hide');
       $('#resettoast').toast('show');
+    },
+    downloadVisualReport(): void {
+      this.tempReport = this.report;
+      const capture = this.$refs.capture as HTMLElement;
+      const reportimage = document.querySelector('#reportimage') as HTMLElement;
+      setTimeout(() => {
+        html2canvas(capture, { backgroundColor: '#343a40' })
+          .then((canvas) => {
+            reportimage.appendChild(canvas);
+            this.tempReport = '';
+          })
+          .catch((error) => {
+            console.log(error);
+            this.tempReport = '';
+          });
+      }, 1);
     },
   },
 });
