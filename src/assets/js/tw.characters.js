@@ -237,6 +237,7 @@ export const tw = [
     zodiac: 'libra',
   },
   { _id: 'melissa', name: '\u6885\u9e97\u838e', rarity: 5, role: 'mage', attribute: 'fire', zodiac: 'lion' },
+  { _id: 'milim', name: '\u871c\u8389\u59c6', rarity: 5, role: 'mage', attribute: 'fire', zodiac: 'cancer' },
   { _id: 'mort', name: '\u9b54\u52d2', rarity: 5, role: 'knight', attribute: 'wind', zodiac: 'twins' },
   { _id: 'mui', name: '\u7e46\u4f0a', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'maiden' },
   {
@@ -262,6 +263,7 @@ export const tw = [
     attribute: 'dark',
     zodiac: 'lion',
   },
+  { _id: 'rimuru', name: '\u5229\u59c6\u8def ', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'libra' },
   { _id: 'roana', name: '\u7f85\u5b89\u7d0d', rarity: 5, role: 'manauser', attribute: 'wind', zodiac: 'fish' },
   {
     _id: 'ruele-of-light',
@@ -289,6 +291,7 @@ export const tw = [
   },
   { _id: 'senya', name: '\u8cfd\u5a1c', rarity: 5, role: 'knight', attribute: 'wind', zodiac: 'bull' },
   { _id: 'sez', name: '\u8cfd\u8332', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'scorpion' },
+  { _id: 'shuna', name: '\u6731\u83dc', rarity: 5, role: 'manauser', attribute: 'fire', zodiac: 'gemini' },
   { _id: 'sigret', name: '\u8cfd\u73c2\u862d\u7279', rarity: 5, role: 'warrior', attribute: 'ice', zodiac: 'bull' },
   {
     _id: 'silver-blade-aramintha',
@@ -321,6 +324,14 @@ export const tw = [
     rarity: 5,
     role: 'mage',
     attribute: 'dark',
+    zodiac: 'twins',
+  },
+  {
+    _id: 'spirit-eye-celine',
+    name: '\u9748\u773c\u7684\u745f\u7433 ',
+    rarity: 5,
+    role: 'assassin',
+    attribute: 'light',
     zodiac: 'twins',
   },
   {
