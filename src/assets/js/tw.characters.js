@@ -640,6 +640,7 @@ export const tw = [
     zodiac: 'scorpion',
   },
   { _id: 'zerato', name: '\u6770\u62c9\u5716', rarity: 4, role: 'mage', attribute: 'ice', zodiac: 'ram' },
+  { _id: 'adin', name: ' \u827e\u5ead\u002c', rarity: 3, role: 'assassin', attribute: 'wind', zodiac: 'leo' },
   { _id: 'adlay', name: '\u4e9e\u8fea\u8cf4', rarity: 3, role: 'mage', attribute: 'wind', zodiac: 'archer' },
   {
     _id: 'adventurer-ras',
@@ -891,6 +892,14 @@ export const tw = [
   { _id: 'rima', name: '\u9ece\u746a', rarity: 3, role: 'ranger', attribute: 'ice', zodiac: 'waterbearer' },
   { _id: 'roozid', name: '\u9b6f\u8332\u5fb7', rarity: 3, role: 'assassin', attribute: 'wind', zodiac: 'twins' },
   { _id: 'sonia', name: '\u8607\u5c3c\u5a6d', rarity: 3, role: 'manauser', attribute: 'light', zodiac: 'fish' },
+  {
+    _id: 'shadow-knight-pyllis',
+    name: '\u9ed1\u9a0e\u58eb\u8cbb\u8389\u7d72',
+    rarity: 3,
+    role: 'knight',
+    attribute: 'dark',
+    zodiac: 'cancer',
+  },
   { _id: 'sven', name: '\u53f2\u8cd3', rarity: 3, role: 'assassin', attribute: 'dark', zodiac: 'scorpion' },
   {
     _id: 'taranor-guard',

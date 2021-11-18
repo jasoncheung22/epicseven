@@ -2,6 +2,12 @@
   <div>
     <Navbar />
     <div class="container" style="margin-top: 10px">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>{{ $t('updateTitle') }}</strong> {{ $t('updateContent') }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <div class="form-group">
         <input v-model="tower" type="text" class="form-control" :placeholder="$t('tower')" />
       </div>
