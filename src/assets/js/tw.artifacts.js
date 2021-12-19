@@ -78,6 +78,7 @@ export const tw = [
   { _id: 'noble-oath', name: '\u9ad8\u6f54\u7684\u8a93\u8a00', rarity: 5, role: 'knight' },
   { _id: 'otherworldly-machinery', name: '\u7570\u754c\u7684\u6a5f\u68b0', rarity: 5, role: 'ranger' },
   { _id: 'proof-of-valor', name: '\u52c7\u731b\u8b49\u64da', rarity: 5, role: '' },
+  { _id: 'pure-white-trust', name: '\u7d14\u767d\u7684\u4fe1\u8cf4', rarity: 5, role: 'warrior' },
   {
     _id: 'reingars-special-drink',
     name: '\u96f7\u8335\u683c\u723e\u7279\u8abf\u98f2\u6599',

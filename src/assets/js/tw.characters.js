@@ -79,6 +79,14 @@ export const tw = [
     zodiac: 'scorpio',
   },
   {
+    _id: 'conqueror-lilias',
+    name: '\u652f\u914d\u8005\u8389\u8389\u4e9e\u65af',
+    rarity: 5,
+    role: 'warrior',
+    attribute: 'light',
+    zodiac: 'aquarius',
+  },
+  {
     _id: 'dark-corvus',
     name: '\u9ed1\u6697\u7684\u79d1\u723e\u5e03\u601d',
     rarity: 5,
@@ -387,6 +395,7 @@ export const tw = [
   { _id: 'vivian', name: '\u8587\u8587\u5b89', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'archer' },
   { _id: 'yufine', name: '\u512a\u82ac\u59ae', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'bull' },
   { _id: 'yuna', name: '\u5c24\u5a1c', rarity: 5, role: 'ranger', attribute: 'ice', zodiac: 'lion' },
+  { _id: 'zahhak', name: '\u672d\u54c8\u514b', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'sagittarius' },
   { _id: 'zeno', name: '\u5091\u8afe', rarity: 5, role: 'mage', attribute: 'ice', zodiac: 'bull' },
   { _id: 'achates', name: '\u96c5\u5361\u6cf0\u7d72', rarity: 4, role: 'manauser', attribute: 'fire', zodiac: 'twins' },
   {
