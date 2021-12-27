@@ -30,6 +30,7 @@ export const tw = [
   { _id: 'ancient-dragons-legacy', name: '\u53e4\u9f8d\u907a\u7522', rarity: 5, role: 'knight' },
   { _id: 'anti-magic-mask', name: '\u6297\u9b54\u9762\u5177', rarity: 5, role: 'warrior' },
   { _id: 'azure-comet', name: '\u9752\u5149\u5f57\u661f', rarity: 5, role: 'warrior' },
+  { _id: 'bastion-of-hope', name: '\u5e0c\u671b\u7684\u5821\u58d8', rarity: 5, role: '' },
   { _id: 'bastion-of-perlutia', name: '\u6ce2\u9b6f\u8fea\u4e9e\u7684\u5821\u58d8', rarity: 5, role: 'knight' },
   { _id: 'black-hand-of-the-goddess', name: '\u5973\u795e\u7684\u9ed1\u624b', rarity: 5, role: 'mage' },
   { _id: 'bloodseared-moon', name: '\u8840\u67d3\u4e4b\u6708', rarity: 5, role: '' },

@@ -35,13 +35,23 @@
             <input v-model="enemy.outspeed" type="checkbox" />
             {{ $t('outspeed') }}
           </label>
+        </div>
+        <div class="form-group">
           <label class="mr-2">
             <input v-model="enemy.counter" type="checkbox" />
             <img src="assets/images/Counter.png" alt="" />
           </label>
-          <label>
+          <label class="mr-2">
             <input v-model="enemy.immunity" type="checkbox" />
             <img src="assets/images/Immunity.png" />
+          </label>
+          <label class="mr-2">
+            <input v-model="enemy.lifesteal" type="checkbox" />
+            <img src="assets/images/Lifesteal.png" />
+          </label>
+          <label>
+            <input v-model="enemy.injury" type="checkbox" />
+            <img src="assets/images/Injury.png" />
           </label>
         </div>
       </div>
@@ -67,6 +77,8 @@ export interface Enemy {
   outspeed: boolean;
   counter: boolean;
   immunity: boolean;
+  lifesteal: boolean;
+  injury: boolean;
   infos: string;
 }
 

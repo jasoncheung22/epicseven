@@ -100,6 +100,12 @@
         </div>
         <div id="result" class="tab-pane">
           <div class="d-md-flex flex-md-row justify-content-md-end">
+            <div class="p-2" style="margin-top: auto">
+              <label class="mr-2">
+                <input v-model="showRawSpeedData" type="checkbox" />
+                {{ $t('showRawSpeedData') }}
+              </label>
+            </div>
             <div class="p-2">
               <button class="btn btn-secondary" v-on:click="resetForm">
                 {{ $t('reset') }}
@@ -196,6 +202,7 @@ export default Vue.extend({
       tower: '',
       report: '',
       tempReport: '',
+      showRawSpeedData: false,
     };
   },
   watch: {
@@ -213,6 +220,9 @@ export default Vue.extend({
         Vue.set(this.secondHero, 'speed', 0);
       }
     },
+    showRawSpeedData(): void {
+      this.updateReport();
+    },
     'firstHero.crBonus': function (): void {
       this.updateReport();
     },
@@ -229,11 +239,13 @@ export default Vue.extend({
       if (this.firstHero.name && val) {
         localStorage.setItem(this.firstHero.name, val);
       }
+      this.updateReport();
     },
     'secondHero.speed': function (val): void {
       if (this.secondHero.name && val) {
         localStorage.setItem(this.secondHero.name, val);
       }
+      this.updateReport();
     },
     'secondHero.crBonus': function (): void {
       this.updateReport();
@@ -286,6 +298,9 @@ export default Vue.extend({
         this.report += `** ${this.tower} **\r\n`;
       }
       let contentT1 = '';
+      if (this.showRawSpeedData && this.firstHero.speed) {
+        contentT1 += `【 ${this.$t('repostMySpeedOne')} : ${this.firstHero.speed}】\n`;
+      }
       contentT1 += this.updateLine(
         this.enemiesFirstHero.first,
         this.firstHero.speed,
@@ -314,6 +329,9 @@ export default Vue.extend({
         this.report += `${this.$t('t1')}\r\n${contentT1}`;
       }
       let contentT2 = '';
+      if (this.showRawSpeedData && this.secondHero.speed) {
+        contentT2 += `【 ${this.$t('repostMySpeedOne')} : ${this.secondHero.speed}】\n`;
+      }
       contentT2 += this.updateLine(
         this.enemiesSecondHero.first,
         this.secondHero.speed,
@@ -346,8 +364,8 @@ export default Vue.extend({
       let content = '';
       if (enemy.name) {
         content += `【 ${enemy.name} 】`;
-        content += enemy.artifact ? ` -【 ${enemy.artifact} 】-` : '';
-        content += enemy.hp ? `【 ${this.formatHp(enemy.hp)} ${this.$t('hp')} 】` : '';
+        content += enemy.artifact ? ` -【 ${enemy.artifact} 】` : '';
+        content += enemy.hp ? `-【 ${this.formatHp(enemy.hp)} ${this.$t('hp')} 】` : '';
         if (enemy.cr && baseSpeed) {
           let { cr }: { cr: number } = enemy;
           cr = +cr;
@@ -370,7 +388,16 @@ export default Vue.extend({
           const speedRange = `${speedmin}-${speedmax}`;
           content += `-【 ${speedRange} ${this.$t('speed')} 】`;
         }
+        if (this.showRawSpeedData && enemy.cr) {
+          if (enemy.outspeed) {
+            content += `-【${this.$t('repostSpeed')} : ${enemy.cr + 100}%】`;
+          } else {
+            content += `-【${this.$t('repostSpeed')} : ${enemy.cr}%】`;
+          }
+        }
         content += enemy.counter ? `-【 ${this.$t('setCounter')} 】` : '';
+        content += enemy.lifesteal ? `-【 ${this.$t('setLifesteal')} 】` : '';
+        content += enemy.injury ? `-【 ${this.$t('setInjury')} 】` : '';
         content += enemy.immunity ? `-【 ${this.$t('setImmunity')} 】` : '';
         content += enemy.infos ? `-【 ${enemy.infos} 】` : '';
         content += '\n';
