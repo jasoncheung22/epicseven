@@ -40,6 +40,7 @@ export const tw = {
   crPushDesc: '例子 : 如果你一速英雄被蘿季超車拉條，此處填寫25',
   crPushAlly: '% 速攻值變化(隊友拉條)',
   crPushAllyDesc: '例子 : 如果你的大將法濟斯被敵人攻擊，此處填寫15',
-  updateTitle: '12月27日, 更新:',
-  updateContent: '新增神器: 希望的堡壘, 新增:團戰報告顯示原始速度數據',
+  updateTitle: '1月7日, 更新:',
+  updateContent:
+    ' 新增角色: 「指揮型萊伊卡」、「扎努塔」、「武蔚」、「奧樂緹」、「尹凌」、「夏率」 ; 新增神器: 「光輝羽翼21」',
 };

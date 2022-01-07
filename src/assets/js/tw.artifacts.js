@@ -57,6 +57,7 @@ export const tw = [
   { _id: 'draco-plate', name: '\u9f8d\u65cf\u677f\u7532', rarity: 5, role: 'warrior' },
   { _id: 'durandal', name: '\u675c\u862d\u6708', rarity: 5, role: 'warrior' },
   { _id: 'dux-noctis', name: '\u6697\u591c\u6307\u63ee\u8005', rarity: 5, role: 'ranger' },
+  { _id: 'glo-wings-21', name: '\u5149\u8f1d\u7fbd\u7ffc21', rarity: 5, role: 'ranger' },
   { _id: 'elbris-ritual-sword', name: '\u57c3\u5e03\u5229\u65af\u7684\u5bf6\u528d', rarity: 5, role: 'knight' },
   { _id: 'eticas-scepter', name: '\u827e\u5e1d\u5609\u6b0a\u6756', rarity: 5, role: 'mage' },
   { _id: 'fairy-tale-for-a-nightmare', name: '\u60e1\u5922\u7684\u7ae5\u8a71', rarity: 5, role: 'mage' },
