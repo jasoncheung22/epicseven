@@ -153,6 +153,7 @@ export const tw = [
   { _id: 'midnight-bloom', name: '\u6708\u591c\u4e4b\u82b1', rarity: 4, role: '' },
   { _id: 'moonlight-dreamblade', name: '\u768e\u6708\u5922\u591c', rarity: 4, role: 'assassin' },
   { _id: 'new-year-cookies', name: '\u860a\u542b\u5e78\u798f\u7684\u6b72\u672b\u9905\u4e7e', rarity: 4, role: '' },
+  { _id: 'nostalgic-music-box', name: '\u60b2\u6200\u7684\u97f3\u6a02\u76d2', rarity: 4, role: '' },
   { _id: 'one-year-of-gratitude', name: '\u5fc3\u5b58\u611f\u8b1d\u76841\u5e74', rarity: 4, role: '' },
   { _id: 'portrait-of-the-saviors', name: '\u6551\u63f4\u8005\u5011\u7684\u756b\u50cf', rarity: 4, role: '' },
   { _id: 'radiant-forever', name: '\u71e6\u721b\u7684\u6c38\u6046', rarity: 4, role: 'mage' },
