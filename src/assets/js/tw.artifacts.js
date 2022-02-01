@@ -62,6 +62,7 @@ export const tw = [
   { _id: 'eticas-scepter', name: '\u827e\u5e1d\u5609\u6b0a\u6756', rarity: 5, role: 'mage' },
   { _id: 'fairy-tale-for-a-nightmare', name: '\u60e1\u5922\u7684\u7ae5\u8a71', rarity: 5, role: 'mage' },
   { _id: 'flawless-garments', name: '\u5929\u8863\u7121\u7e2b', rarity: 5, role: 'manauser' },
+  { _id: 'goblet-of-oath', name: '\u8a93\u8a00\u4e4b\u676f', rarity: 5, role: 'assassin' },
   { _id: 'guardian-ice-crystals', name: '\u5b88\u8b77\u7684\u51b0\u5c01\u788e\u7247', rarity: 5, role: 'manauser' },
   { _id: 'guide-to-a-decision', name: '\u9078\u64c7\u7684\u6307\u6a19', rarity: 5, role: '' },
   { _id: 'guiding-light', name: '\u5f15\u5c0e\u4e4b\u5149', rarity: 5, role: 'ranger' },

@@ -210,6 +210,14 @@ export const tw = [
   { _id: 'lilias', name: '\u8389\u8389\u4e9e\u65af', rarity: 5, role: 'knight', attribute: 'fire', zodiac: 'ram' },
   { _id: 'lilibet', name: '\u8389\u8389\u8c9d', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'scales' },
   {
+    _id: 'lionheart-cermia',
+    name: '\u7345\u5fc3\u738b\u6f54\u82e5\u7c73\u4e9e',
+    rarity: 5,
+    role: 'warrior',
+    attribute: 'light',
+    zodiac: 'scales',
+  },
+  {
     _id: 'little-queen-charlotte',
     name: '\u5e74\u8f15\u7684\u5973\u738b\u590f\u7da0\u8482',
     rarity: 5,
@@ -265,6 +273,7 @@ export const tw = [
     zodiac: 'scales',
   },
   { _id: 'pavel', name: '\u5e15\u8c9d\u723e', rarity: 5, role: 'ranger', attribute: 'wind', zodiac: 'maiden' },
+  { _id: 'peira', name: '\u6c9b\u4f0a\u62c9', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'virgo ' },
   { _id: 'politis', name: '\u4f5b\u91cc\u8482\u7d72', rarity: 5, role: 'mage', attribute: 'fire', zodiac: 'twins' },
   { _id: 'ram', name: '\u62c9\u59c6', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'gemini' },
   { _id: 'ran', name: '\u5d50', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'aries' },
