@@ -168,6 +168,14 @@ export const tw = [
     zodiac: 'scales',
   },
   {
+    _id: 'hwayoung',
+    name: '\u548c\u82f1',
+    rarity: 5,
+    role: 'warrior',
+    attribute: 'fire',
+    zodiac: 'libra',
+  },
+  {
     _id: 'inferno-khawazu',
     name: '\u70c8\u7130\u7684\u5361\u74e6\u6731',
     rarity: 4,
@@ -274,6 +282,14 @@ export const tw = [
   },
   { _id: 'pavel', name: '\u5e15\u8c9d\u723e', rarity: 5, role: 'ranger', attribute: 'wind', zodiac: 'maiden' },
   { _id: 'peira', name: '\u6c9b\u4f0a\u62c9', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'virgo ' },
+  {
+    _id: 'pirate-captain-flan',
+    name: '\u6d77\u76dc\u8239\u9577\u8299\u862d',
+    rarity: 5,
+    role: 'ranger',
+    attribute: 'dark',
+    zodiac: 'virgo ',
+  },
   { _id: 'politis', name: '\u4f5b\u91cc\u8482\u7d72', rarity: 5, role: 'mage', attribute: 'fire', zodiac: 'twins' },
   { _id: 'ram', name: '\u62c9\u59c6', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'gemini' },
   { _id: 'ran', name: '\u5d50', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'aries' },
@@ -456,6 +472,14 @@ export const tw = [
     role: 'mage',
     attribute: 'dark',
     zodiac: 'fish',
+  },
+  {
+    _id: 'bad-cat-armin',
+    name: '\u58de\u58de\u8c93\u4e9e\u654f',
+    rarity: 4,
+    role: 'warrior',
+    attribute: 'dark',
+    zodiac: 'aries',
   },
   {
     _id: 'benevolent-romann',
@@ -948,6 +972,23 @@ export const tw = [
     zodiac: 'scorpion',
   },
   { _id: 'tieria', name: '\u9edb\u8389\u4e9e', rarity: 3, role: 'warrior', attribute: 'fire', zodiac: 'ram' },
+  {
+    _id: 'verdant-adin',
+    name: '\u65b0\u7da0\u7684\u827e\u5ead',
+    rarity: 3,
+    role: 'assassin',
+    attribute: 'wind',
+    zodiac: 'leo',
+  },
+  {
+    _id: 'vigilante-leader-glenn',
+    name: '\u81ea\u885b\u968a\u968a\u9577\u683c\u502b',
+    rarity: 3,
+    role: 'ranger',
+    attribute: 'wind',
+    zodiac: 'libra',
+  },
+
   { _id: 'wanda', name: '\u6c6a\u9054', rarity: 3, role: 'ranger', attribute: 'dark', zodiac: 'twins' },
   { _id: 'yoonyoung', name: '\u5c39\u51cc', rarity: 3, role: 'knight', attribute: 'light', zodiac: 'twins' },
   {
