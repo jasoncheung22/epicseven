@@ -70,6 +70,7 @@ export const tw = [
   { _id: 'idols-cheer', name: '\u6b4c\u59ec\u52a9\u9663', rarity: 5, role: 'manauser' },
   { _id: 'indestructible-gaiters', name: '\u91d1\u525b\u7d81\u817f', rarity: 5, role: 'warrior' },
   { _id: 'iron-fan', name: '\u9435\u6247', rarity: 5, role: 'ranger' },
+  { _id: 'jack-o-symbol', name: '\u6f54\u514b\u2027\u6b50\u7684\u8c61\u5fb5', rarity: 5, role: 'warrior' },
   { _id: 'junkyard-dog', name: 'Junkyard Dog', rarity: 5, role: 'warrior' },
   { _id: 'justice-for-all', name: '\u70ba\u773e\u4eba\u7684\u6b63\u7fa9', rarity: 5, role: 'knight' },
   { _id: 'knowledge-seed', name: '\u77e5\u8b58\u7a2e\u5b50', rarity: 5, role: 'mage' },

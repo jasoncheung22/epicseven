@@ -192,6 +192,7 @@ export const tw = [
     zodiac: 'gemini',
   },
   { _id: 'iseria', name: '\u4f0a\u8cfd\u9e97\u4e9e', rarity: 5, role: 'ranger', attribute: 'wind', zodiac: 'lion' },
+  { _id: 'jack-o', name: '\u6f54\u514b\u2027\u6b50', rarity: 5, role: 'warrior', attribute: 'fire', zodiac: 'taurus ' },
   {
     _id: 'judge-kise',
     name: '\u5be9\u5224\u8005\u7dba\u4e16',
@@ -690,7 +691,7 @@ export const tw = [
     zodiac: 'scorpion',
   },
   { _id: 'zerato', name: '\u6770\u62c9\u5716', rarity: 4, role: 'mage', attribute: 'ice', zodiac: 'ram' },
-  { _id: 'adin', name: ' \u827e\u5ead\u002c', rarity: 3, role: 'assassin', attribute: 'wind', zodiac: 'leo' },
+  { _id: 'adin', name: '\u827e\u5ead', rarity: 3, role: 'assassin', attribute: 'wind', zodiac: 'leo' },
   { _id: 'adlay', name: '\u4e9e\u8fea\u8cf4', rarity: 3, role: 'mage', attribute: 'wind', zodiac: 'archer' },
   {
     _id: 'adventurer-ras',

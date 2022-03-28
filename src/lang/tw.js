@@ -40,6 +40,6 @@ export const tw = {
   crPushDesc: '例子 : 如果你一速英雄被蘿季超車拉條，此處填寫25',
   crPushAlly: '% 速攻值變化(隊友拉條)',
   crPushAllyDesc: '例子 : 如果你的大將法濟斯被敵人攻擊，此處填寫15',
-  updateTitle: '3月7日, 更新:',
-  updateContent: '新增角色: 「新綠的艾庭」、「自衛隊隊長格倫」、「海盜船長芙蘭」',
+  updateTitle: '3月28日, 更新:',
+  updateContent: '新增角色: 「潔克‧歐」; 新增神器: 「潔克‧歐的象徵」',
 };
