@@ -95,6 +95,7 @@ export const tw = [
   { _id: 'rise-of-a-monarch', name: '\u738b\u7684\u8a95\u751f', rarity: 5, role: 'knight' },
   { _id: 'rod-of-amaryllis', name: '\u5b64\u633a\u82b1\u4e4b\u6756', rarity: 5, role: 'manauser' },
   { _id: 'samsara-prayer-beads', name: '\u5faa\u74b0\u5ff5\u73e0', rarity: 5, role: 'warrior' },
+  { _id: 'scroll-of-shadows', name: '\u6697\u5f71\u4e4b\u66f8', rarity: 5, role: 'mage' },
   { _id: 'secret-art-storm-sword', name: '\u7955\u7b08\uff0d\u96f7\u5929\u4e00\u528d', rarity: 5, role: 'assassin' },
   { _id: 'severed-horn-wand', name: '\u88ab\u622a\u65b7\u7684\u7284\u89d2\u624b\u6756', rarity: 5, role: 'mage' },
   { _id: 'shepherd-of-the-hollow', name: '\u7121\u70ba\u7684\u5f15\u5c0e\u8005', rarity: 5, role: 'assassin' },
