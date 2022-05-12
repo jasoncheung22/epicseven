@@ -40,6 +40,6 @@ export const tw = {
   crPushDesc: '例子 : 如果你一速英雄被蘿季超車拉條，此處填寫25',
   crPushAlly: '% 速攻值變化(隊友拉條)',
   crPushAllyDesc: '例子 : 如果你的大將法濟斯被敵人攻擊，此處填寫15',
-  updateTitle: '4月12日, 更新 :',
-  updateContent: '新增角色: 「艾莉雅」; 新增神器: 「暗影之書」',
+  updateTitle: '5月12日, 更新 :',
+  updateContent: '新增角色: 「太悟,聖炎的艾庭」; 新增神器: 「破邪之槍」',
 };
