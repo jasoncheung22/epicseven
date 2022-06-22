@@ -105,6 +105,7 @@ export const tw = [
   { _id: 'song-of-stars', name: '\u661f\u8fb0\u4e4b\u6b4c', rarity: 5, role: 'ranger' },
   { _id: 'spear-of-a-new-dawn', name: '\u958b\u95e2\u4e4b\u9397', rarity: 5, role: 'knight' },
   { _id: 'spear-of-purification', name: '\u7834\u90aa\u4e4b\u69cd', rarity: 5, role: 'warrior' },
+  { _id: 'sphere-of-sadism', name: '\u55dc\u8650\u4e4b\u7403', rarity: 5, role: 'knight' },
   { _id: 'spirits-breath', name: '\u7cbe\u9748\u6c23\u606f', rarity: 5, role: 'mage' },
   { _id: 'star-piercer', name: '\u9032\u653b\u865f\u89d2', rarity: 5, role: '' },
   { _id: 'star-of-the-deep-sea', name: '\u6df1\u6d77\u6f02\u6d6e\u4e4b\u661f', rarity: 5, role: 'ranger' },

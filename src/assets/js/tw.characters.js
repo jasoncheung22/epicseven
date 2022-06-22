@@ -444,6 +444,7 @@ export const tw = [
   },
   { _id: 'vivian', name: '\u8587\u8587\u5b89', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'archer' },
   { _id: 'yufine', name: '\u512a\u82ac\u59ae', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'bull' },
+  { _id: 'yulha', name: '\u5f8b\u8377', rarity: 5, role: 'knight', attribute: 'wind', zodiac: 'sagittarius' },
   { _id: 'yuna', name: '\u5c24\u5a1c', rarity: 5, role: 'ranger', attribute: 'ice', zodiac: 'lion' },
   { _id: 'zahhak', name: '\u672d\u54c8\u514b', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'sagittarius' },
   { _id: 'zeno', name: '\u5091\u8afe', rarity: 5, role: 'mage', attribute: 'ice', zodiac: 'bull' },
