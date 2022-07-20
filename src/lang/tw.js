@@ -40,6 +40,6 @@ export const tw = {
   crPushDesc: '例子 : 如果你一速英雄被蘿季超車拉條，此處填寫25',
   crPushAlly: '% 速攻值變化(隊友拉條)',
   crPushAllyDesc: '例子 : 如果你的大將法濟斯被敵人攻擊，此處填寫15',
-  updateTitle: '6月22日, 更新 :',
-  updateContent: '新增角色: 「律荷」; 新增神器: 「嗜虐之球」',
+  updateTitle: '7月20日, 更新 :',
+  updateContent: '新增角色: 「夏天的學生雅莉莎、森之賢者薇薇安、莎倫」; 新增神器: 「神木樹枝」',
 };

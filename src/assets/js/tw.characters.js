@@ -341,6 +341,7 @@ export const tw = [
   },
   { _id: 'senya', name: '\u8cfd\u5a1c', rarity: 5, role: 'knight', attribute: 'wind', zodiac: 'bull' },
   { _id: 'sez', name: '\u8cfd\u8332', rarity: 5, role: 'assassin', attribute: 'ice', zodiac: 'scorpion' },
+  { _id: 'sharun', name: '\u838e\u502b', rarity: 5, role: 'manauser', attribute: 'wind', zodiac: 'gemini' },
   { _id: 'shuna', name: '\u6731\u83dc', rarity: 5, role: 'manauser', attribute: 'fire', zodiac: 'gemini' },
   { _id: 'sigret', name: '\u8cfd\u73c2\u862d\u7279', rarity: 5, role: 'warrior', attribute: 'ice', zodiac: 'bull' },
   {
@@ -351,6 +352,15 @@ export const tw = [
     attribute: 'light',
     zodiac: 'twins',
   },
+  {
+    _id: 'slyvan-sage-vivian',
+    name: '\u68ee\u4e4b\u8ce2\u8005\u8587\u8587\u5b89',
+    rarity: 5,
+    role: 'mage',
+    attribute: 'light',
+    zodiac: 'twins',
+  },
+
   { _id: 'sol', name: '\u7d22\u723e', rarity: 5, role: 'warrior', attribute: 'fire', zodiac: 'archer' },
   {
     _id: 'solitaria-of-the-snow',
@@ -972,6 +982,14 @@ export const tw = [
   { _id: 'rima', name: '\u9ece\u746a', rarity: 3, role: 'ranger', attribute: 'ice', zodiac: 'waterbearer' },
   { _id: 'roozid', name: '\u9b6f\u8332\u5fb7', rarity: 3, role: 'assassin', attribute: 'wind', zodiac: 'twins' },
   { _id: 'sonia', name: '\u8607\u5c3c\u5a6d', rarity: 3, role: 'manauser', attribute: 'light', zodiac: 'fish' },
+  {
+    _id: 'summers-disciple-alexa',
+    name: '\u590f\u5929\u7684\u5b78\u751f\u96c5\u8389\u838e',
+    rarity: 3,
+    role: 'assassin',
+    attribute: 'ice',
+    zodiac: 'leo',
+  },
   {
     _id: 'shadow-knight-pyllis',
     name: '\u9ed1\u9a0e\u58eb\u8cbb\u8389\u7d72',
