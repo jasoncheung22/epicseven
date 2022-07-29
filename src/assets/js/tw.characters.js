@@ -403,6 +403,14 @@ export const tw = [
     zodiac: 'taurus',
   },
   {
+    _id: 'summer-break-charlotte',
+    name: '\u6691\u5047\u590f\u7da0\u8482',
+    rarity: 5,
+    role: 'knight',
+    attribute: 'ice',
+    zodiac: 'gemini',
+  },
+  {
     _id: 'summertime-iseria',
     name: '\u5357\u570b\u7684\u4f0a\u8cfd\u8389\u4e9e',
     rarity: 5,

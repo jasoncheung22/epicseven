@@ -77,6 +77,7 @@ export const tw = [
   { _id: 'last-teatime', name: '\u6700\u5f8c\u7684\u4e0b\u5348\u8336', rarity: 5, role: 'mage' },
   { _id: 'magic-for-friends', name: '\u70ba\u4e86\u670b\u53cb\u7684\u9b54\u6cd5', rarity: 5, role: 'mage' },
   { _id: 'manica-of-control', name: '\u63a7\u5236\u7684\u8b77\u81c2', rarity: 5, role: 'assassin' },
+  { _id: 'mature-sunglasses', name: '\u6210\u719f\u7684\u58a8\u93e1', rarity: 5, role: 'knight' },
   { _id: 'manifu', name: '\u746a\u5c3c\u666e', rarity: 5, role: '' },
   { _id: 'merciless-glutton', name: '\u7121\u60c5\u7684\u5927\u98df\u5ba2', rarity: 5, role: 'warrior' },
   { _id: 'ms-confille', name: 'Miss Confile', rarity: 5, role: 'ranger' },
