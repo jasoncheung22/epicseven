@@ -249,6 +249,7 @@ export default Vue.extend({
     select($event: Event): void {
       this.selectedCharacters = ($event.target as HTMLInputElement).value;
       this.$emit('input', ($event.target as HTMLInputElement).value);
+      this.$emit('selectCharacter', this.selectedRole);
     },
     /* eslint-disable  @typescript-eslint/no-explicit-any */
     getItems(): Array<any> {

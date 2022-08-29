@@ -3,12 +3,22 @@
     <div class="form-row">
       <div class="col-md-3">
         <div class="form-group">
-          <SelectCharacter v-model="enemy.name" :title="labelHero" :huid="uid" />
+          <SelectCharacter
+            v-model="enemy.name"
+            :title="labelHero"
+            :huid="uid"
+            @selectCharacter="defaultArtifactRole = $event"
+          />
         </div>
       </div>
       <div class="col-md-3">
         <div class="form-group">
-          <SelectArtifact v-model="enemy.artifact" :title="labelArtifact" :huid="cid" />
+          <SelectArtifact
+            v-model="enemy.artifact"
+            :title="labelArtifact"
+            :huid="cid"
+            :defaultRole="defaultArtifactRole"
+          />
         </div>
       </div>
       <div class="col-md-3">
@@ -93,6 +103,11 @@ export default Vue.extend({
     enemy: Object as PropType<Enemy>,
     labelHero: String,
     labelArtifact: String,
+  },
+  data() {
+    return {
+      defaultArtifactRole: '',
+    };
   },
 });
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" :data-target="'#' + modalid">
+    <button type="button" class="btn btn-primary" data-toggle="modal" :data-target="'#' + modalid" @click="setup">
       {{ title }}
     </button>
     {{ selectedArtifact }}
@@ -27,7 +27,7 @@
                         autocomplete="off"
                         value=""
                         v-model="selectedRole"
-                        checked
+                        ref=""
                       /><img src="assets/images/Common.png" />
                     </label>
                     <label class="btn btn-primary">
@@ -38,6 +38,7 @@
                         autocomplete="off"
                         value="warrior"
                         v-model="selectedRole"
+                        ref="warrior"
                       /><img src="assets/images/Warrior.png" />
                     </label>
                     <label class="btn btn-primary">
@@ -48,6 +49,7 @@
                         autocomplete="off"
                         value="knight"
                         v-model="selectedRole"
+                        ref="knight"
                       /><img src="assets/images/Knight.png" />
                     </label>
                     <label class="btn btn-primary">
@@ -58,6 +60,7 @@
                         autocomplete="off"
                         value="ranger"
                         v-model="selectedRole"
+                        ref="ranger"
                       /><img src="assets/images/Ranger.png" />
                     </label>
                     <label class="btn btn-primary">
@@ -68,6 +71,7 @@
                         autocomplete="off"
                         value="mage"
                         v-model="selectedRole"
+                        ref="mage"
                       /><img src="assets/images/Mage.png" />
                     </label>
                     <label class="btn btn-primary">
@@ -78,6 +82,7 @@
                         autocomplete="off"
                         value="manauser"
                         v-model="selectedRole"
+                        ref="manauser"
                       /><img src="assets/images/Soul_Weaver.png" />
                     </label>
                     <label class="btn btn-primary">
@@ -88,6 +93,7 @@
                         autocomplete="off"
                         value="assassin"
                         v-model="selectedRole"
+                        ref="assassin"
                       /><img src="assets/images/Thief.png" />
                     </label>
                   </div>
@@ -104,7 +110,7 @@
                         autocomplete="off"
                         value="3"
                         v-model="selectedRarity"
-                        checked
+                        ref="3"
                       />
                       3<img src="assets/images/star.png" />
                     </label>
@@ -116,6 +122,7 @@
                         autocomplete="off"
                         value="4"
                         v-model="selectedRarity"
+                        ref="4"
                       />
                       4<img src="assets/images/star.png" />
                     </label>
@@ -127,6 +134,7 @@
                         autocomplete="off"
                         value="5"
                         v-model="selectedRarity"
+                        ref="5"
                       />
                       5<img src="assets/images/star.png" />
                     </label>
@@ -164,7 +172,7 @@ import { tw } from '../assets/js/tw.artifacts';
 import { nicknames } from '../assets/js/nicknames';
 
 export default Vue.extend({
-  props: ['title', 'value', 'huid'],
+  props: ['title', 'value', 'huid', 'defaultRole'],
   data() {
     return {
       artifacts: en,
@@ -187,6 +195,10 @@ export default Vue.extend({
     this.artifacts = this.getItems();
     this.modalid = this.huid;
   },
+  mounted() {
+    this.selectedRarity = '3';
+    this.selectedRole = '';
+  },
   watch: {
     title(): void {
       this.artifacts = this.getItems();
@@ -196,6 +208,32 @@ export default Vue.extend({
     $(this.$el).selectpicker({ title: this.title }).selectpicker('render');
   },
   methods: {
+    setup(): void {
+      let temp: any;
+      temp = this.$refs[this.selectedRole];
+      if (temp.attributes.checked != null) {
+        temp.attributes.removeNamedItem('checked');
+        temp.parentNode.classList.remove('active');
+      }
+      temp = this.$refs[this.selectedRarity];
+      if (temp.attributes.checked != null) {
+        temp.attributes.removeNamedItem('checked');
+        temp.parentNode.classList.remove('active');
+      }
+      if (this.defaultRole !== '') {
+        this.selectedRarity = '5';
+        this.selectedRole = this.defaultRole;
+      } else {
+        this.selectedRarity = '3';
+        this.selectedRole = '';
+      }
+      temp = this.$refs[this.selectedRole];
+      temp.setAttribute('checked', 'true');
+      temp.parentNode.classList.add('active');
+      temp = this.$refs[this.selectedRarity];
+      temp.setAttribute('checked', 'true');
+      temp.parentNode.classList.add('active');
+    },
     select($event: Event): void {
       this.selectedArtifact = ($event.target as HTMLInputElement).value;
       this.$emit('input', ($event.target as HTMLInputElement).value);
