@@ -108,6 +108,7 @@ export const tw = [
   { _id: 'sigurd-scythe', name: '\u5e2d\u683c\u52d2\u8cfd\u65af', rarity: 5, role: 'warrior' },
   { _id: 'snow-crystal', name: '\u767d\u96ea\u6c34\u6676', rarity: 5, role: 'warrior' },
   { _id: 'song-of-stars', name: '\u661f\u8fb0\u4e4b\u6b4c', rarity: 5, role: 'ranger' },
+  { _id: 'spatiotemporal-fan', name: '\u6642\u7a7a\u647a\u6247', rarity: 5, role: 'ranger' },
   { _id: 'spear-of-a-new-dawn', name: '\u958b\u95e2\u4e4b\u9397', rarity: 5, role: 'knight' },
   { _id: 'spear-of-purification', name: '\u7834\u90aa\u4e4b\u69cd', rarity: 5, role: 'warrior' },
   { _id: 'sphere-of-sadism', name: '\u55dc\u8650\u4e4b\u7403', rarity: 5, role: 'knight' },
