@@ -119,7 +119,7 @@ export const tw = [
   { _id: 'star-of-the-deep-sea', name: '\u6df1\u6d77\u6f02\u6d6e\u4e4b\u661f', rarity: 5, role: 'ranger' },
   { _id: 'stella-harpa', name: '\u661f\u4e4b\u8c4e\u7434', rarity: 5, role: 'manauser' },
   { _id: 'sword-of-autumn-eclipse', name: '\u79cb\u7aef\u67d3\u5200', rarity: 5, role: 'warrior' },
-  { _id: 'sword-of-cycling-seasons', name: '\u5faa\u74b0\u4e4b\u528d', rarity: 5, role: 'manauser' },
+  { _id: 'sword-of-cycling-seasons', name: '\u5faa\u74b0\u4e4b\u528d', rarity: 5, role: 'assassin' },
   { _id: 'sword-of-ezera', name: '\u4f0a\u5091\u62c9\u7684\u8056\u528d', rarity: 5, role: 'knight' },
   { _id: 'sword-of-holy-light', name: '\u8056\u5149\u4e4b\u528d', rarity: 5, role: '' },
   { _id: 'sword-of-judgment', name: '\u5be9\u5224\u4e4b\u528d', rarity: 5, role: 'ranger' },
