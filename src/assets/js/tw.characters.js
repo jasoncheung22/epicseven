@@ -1,6 +1,6 @@
 export const tw = [
   { _id: 'ae-ningning', name: 'ae-NINGNING', rarity: 5, role: 'manauser', attribute: 'fire', zodiac: 'crab' },
-  { _id: 'ae-winter', name: 'ae-WINTER', rarity: 5, role: 'thief', attribute: 'fire', zodiac: 'capricorn' },
+  { _id: 'ae-winter', name: 'ae-WINTER', rarity: 5, role: 'assassin', attribute: 'fire', zodiac: 'capricorn' },
   { _id: 'alencia', name: '\u827e\u84ee\u897f\u96c5', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'crab' },
   {
     _id: 'ambitious-tywin',
