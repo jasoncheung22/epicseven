@@ -1,4 +1,6 @@
 export const tw = [
+  { _id: 'ae-ningning', name: 'ae-NINGNING', rarity: 5, role: 'manauser', attribute: 'fire', zodiac: 'crab' },
+  { _id: 'ae-winter', name: 'ae-WINTER', rarity: 5, role: 'thief', attribute: 'fire', zodiac: 'capricorn' },
   { _id: 'alencia', name: '\u827e\u84ee\u897f\u96c5', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'crab' },
   {
     _id: 'ambitious-tywin',
@@ -40,6 +42,14 @@ export const tw = [
     role: 'mage',
     attribute: 'ice',
     zodiac: 'taurus ',
+  },
+  {
+    _id: 'arunka',
+    name: '\u4e9e\u9732\u5609',
+    rarity: 5,
+    role: 'warrior',
+    attribute: 'wind',
+    zodiac: 'scorpio',
   },
   {
     _id: 'astromancer-elena',
@@ -507,6 +517,7 @@ export const tw = [
   { _id: 'yuna', name: '\u5c24\u5a1c', rarity: 5, role: 'ranger', attribute: 'ice', zodiac: 'lion' },
   { _id: 'zahhak', name: '\u672d\u54c8\u514b', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'sagittarius' },
   { _id: 'zeno', name: '\u5091\u8afe', rarity: 5, role: 'mage', attribute: 'ice', zodiac: 'bull' },
+  { _id: 'zio', name: '\u667a\u6b66', rarity: 5, role: 'mage', attribute: 'dark', zodiac: 'bull' },
   { _id: 'achates', name: '\u96c5\u5361\u6cf0\u7d72', rarity: 4, role: 'manauser', attribute: 'fire', zodiac: 'twins' },
   {
     _id: 'angel-of-light-angelica',
@@ -1038,6 +1049,14 @@ export const tw = [
   },
   { _id: 'rima', name: '\u9ece\u746a', rarity: 3, role: 'ranger', attribute: 'ice', zodiac: 'waterbearer' },
   { _id: 'roozid', name: '\u9b6f\u8332\u5fb7', rarity: 3, role: 'assassin', attribute: 'wind', zodiac: 'twins' },
+  {
+    _id: 'savior-adin',
+    name: '\u6551\u63f4\u8005\u827e\u5ead',
+    rarity: 3,
+    role: 'light',
+    attribute: 'assassin',
+    zodiac: 'leo',
+  },
   { _id: 'sonia', name: '\u8607\u5c3c\u5a6d', rarity: 3, role: 'manauser', attribute: 'light', zodiac: 'fish' },
   {
     _id: 'summers-disciple-alexa',
@@ -1073,6 +1092,14 @@ export const tw = [
     zodiac: 'scorpion',
   },
   { _id: 'tieria', name: '\u9edb\u8389\u4e9e', rarity: 3, role: 'warrior', attribute: 'fire', zodiac: 'ram' },
+  {
+    _id: 'unbound-knight-arowell',
+    name: '\u81ea\u7531\u9a0e\u58eb\u96c5\u6d1b\u8587',
+    rarity: 3,
+    role: 'knight',
+    attribute: 'light',
+    zodiac: 'libra',
+  },
   {
     _id: 'verdant-adin',
     name: '\u65b0\u7da0\u7684\u827e\u5ead',
