@@ -40,7 +40,6 @@ export const tw = {
   crPushDesc: '例子 : 如果你一速英雄被蘿季超車拉條，此處填寫25',
   crPushAlly: '% 速攻值變化(隊友拉條)',
   crPushAllyDesc: '例子 : 如果你的大將法濟斯被敵人攻擊，此處填寫15',
-  updateTitle: '11月30日, 更新 :',
-  updateContent:
-    '新增角色: 「自由騎士雅洛薇、亞露嘉、救援者艾庭、智武、ae-NINGNING、ae-WINTER」; 新增神器: 「秋端染刀、循環之劍、P.O.S、兵器、EXIF Detective(E.d.)」',
+  updateTitle: '1月2日, 更新 :',
+  updateContent: '新增角色: 「ae-KARINA、ae-GISELLE、死亡探究者雷伊」; 新增神器: 「光之框架、火箭拳擊手」',
 };

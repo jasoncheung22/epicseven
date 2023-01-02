@@ -1,6 +1,9 @@
 export const tw = [
+  { _id: 'ae-giselle', name: 'ae-GISELLE', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'scorpio' },
+  { _id: 'ae-karina', name: 'ae-KARINA', rarity: 5, role: 'knight', attribute: 'ice', zodiac: 'aries' },
   { _id: 'ae-ningning', name: 'ae-NINGNING', rarity: 5, role: 'manauser', attribute: 'fire', zodiac: 'crab' },
   { _id: 'ae-winter', name: 'ae-WINTER', rarity: 5, role: 'assassin', attribute: 'fire', zodiac: 'capricorn' },
+
   { _id: 'alencia', name: '\u827e\u84ee\u897f\u96c5', rarity: 5, role: 'warrior', attribute: 'wind', zodiac: 'crab' },
   {
     _id: 'ambitious-tywin',
@@ -137,6 +140,14 @@ export const tw = [
     zodiac: 'goat',
   },
   {
+    _id: 'death-dealer-ray',
+    name: '\u6b7b\u4ea1\u63a2\u7a76\u8005\u96f7\u4f0a',
+    rarity: 5,
+    role: 'manauser',
+    attribute: 'dark',
+    zodiac: 'goat',
+  },
+  {
     _id: 'desert-jewel-basar',
     name: '\u6c99\u6f20\u5bf6\u77f3\u5df4\u85a9\u723e',
     rarity: 5,
@@ -161,7 +172,7 @@ export const tw = [
     name: '\u611b\u5fb7\u83ef\u2027\u611b\u529b\u514b',
     rarity: 5,
     role: 'warrior',
-    attribute: 'fure',
+    attribute: 'fire',
     zodiac: 'aries',
   },
   { _id: 'elena', name: '\u827e\u857e\u5a1c', rarity: 5, role: 'manauser', attribute: 'ice', zodiac: 'twins' },
