@@ -65,6 +65,7 @@ export const tw = [
   { _id: 'baal-sezan', name: '\u5df4\u723e&\u585e\u5c1a', rarity: 5, role: 'mage', attribute: 'fire', zodiac: 'twins' },
   { _id: 'baiken', name: '\u6885\u55a7', rarity: 5, role: 'assassin', attribute: 'wind', zodiac: 'scorpion' },
   { _id: 'basar', name: '\u5df4\u85a9\u723e', rarity: 5, role: 'mage', attribute: 'wind', zodiac: 'waterbearer' },
+  { _id: 'beehoo', name: '\u96e8\u8129', rarity: 5, role: 'ranger', attribute: 'fire', zodiac: 'capricorn' },
   { _id: 'belian', name: '\u4f2f\u91cc\u5b89', rarity: 5, role: 'knight', attribute: 'light', zodiac: 'aries' },
   { _id: 'bellona', name: '\u7dad\u723e\u863f\u5a1c', rarity: 5, role: 'ranger', attribute: 'wind', zodiac: 'goat' },
   {
@@ -724,6 +725,14 @@ export const tw = [
     attribute: 'light',
     zodiac: 'taurus',
   },
+  {
+    _id: 'peacemaker-furious',
+    name: '\u5e73\u8861\u7684\u5c24\u8c9d\u70cf\u65af',
+    rarity: 4,
+    role: 'ranger',
+    attribute: 'dark',
+    zodiac: 'scorpio',
+  },
   { _id: 'purrgis', name: '\u6cd5\u6fdf\u65af', rarity: 4, role: 'warrior', attribute: 'wind', zodiac: 'scorpion' },
   { _id: 'rin', name: '\u9234\u5152', rarity: 4, role: 'manauser', attribute: 'wind', zodiac: 'maiden' },
   {
@@ -955,6 +964,7 @@ export const tw = [
   { _id: 'jecht', name: '\u5091\u514b\u6258', rarity: 3, role: 'manauser', attribute: 'wind', zodiac: 'archer' },
   { _id: 'jena', name: '\u6377\u5a1c', rarity: 3, role: 'mage', attribute: 'ice', zodiac: 'ram' },
   { _id: 'judith', name: '\u8331\u8fea\u7d72', rarity: 3, role: 'assassin', attribute: 'fire', zodiac: 'fish' },
+  { _id: 'juni', name: '\u73e0\u59ae', rarity: 3, role: 'warrior', attribute: 'fire', zodiac: 'sagittarius' },
   {
     _id: 'kikirat-v2',
     name: '\u5947\u5947\u62c9\u7279V.2',
@@ -966,6 +976,7 @@ export const tw = [
   { _id: 'kiris', name: '\u5947\u9e97\u7d72', rarity: 3, role: 'ranger', attribute: 'wind', zodiac: 'goat' },
   { _id: 'kluri', name: '\u53ef\u9732\u8389', rarity: 3, role: 'knight', attribute: 'wind', zodiac: 'ram' },
   { _id: 'lena', name: '\u96f7\u5a1c', rarity: 3, role: 'warrior', attribute: 'ice', zodiac: 'scales' },
+  { _id: 'lilka', name: '\u8389\u73c8', rarity: 3, role: 'ranger', attribute: 'wind', zodiac: 'gemini' },
   { _id: 'lorina', name: '\u863f\u91cc\u5a1c', rarity: 3, role: 'warrior', attribute: 'dark', zodiac: 'lion' },
   { _id: 'lucy', name: '\u9732\u897f', rarity: 3, role: 'manauser', attribute: 'wind', zodiac: 'maiden' },
   {
@@ -1078,6 +1089,14 @@ export const tw = [
     zodiac: 'leo',
   },
   {
+    _id: 'suthan',
+    name: '\u65af\u5766',
+    rarity: 3,
+    role: 'mage',
+    attribute: 'dark',
+    zodiac: 'aquarius',
+  },
+  {
     _id: 'shadow-knight-pyllis',
     name: '\u9ed1\u9a0e\u58eb\u8cbb\u8389\u7d72',
     rarity: 3,
@@ -1086,6 +1105,8 @@ export const tw = [
     zodiac: 'cancer',
   },
   { _id: 'sven', name: '\u53f2\u8cd3', rarity: 3, role: 'assassin', attribute: 'dark', zodiac: 'scorpion' },
+  { _id: 'talaz', name: '\u9054\u62c9\u58eb', rarity: 3, role: 'warrior', attribute: 'ice', zodiac: 'leo' },
+  { _id: 'talia', name: '\u8389\u73c8', rarity: 3, role: 'assassin', attribute: 'light', zodiac: 'capricorn' },
   {
     _id: 'taranor-guard',
     name: '\u5854\u62c9\u8afe\u723e\u7981\u885b\u968a\u54e1',

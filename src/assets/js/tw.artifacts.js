@@ -115,6 +115,7 @@ export const tw = [
   { _id: 'spatiotemporal-fan', name: '\u6642\u7a7a\u647a\u6247', rarity: 5, role: 'ranger' },
   { _id: 'spear-of-a-new-dawn', name: '\u958b\u95e2\u4e4b\u9397', rarity: 5, role: 'knight' },
   { _id: 'spear-of-purification', name: '\u7834\u90aa\u4e4b\u69cd', rarity: 5, role: 'warrior' },
+  { _id: 'sphere-of-inferno', name: '\u711a\u6ec5\u4e4b\u7403', rarity: 5, role: 'ranger' },
   { _id: 'sphere-of-sadism', name: '\u55dc\u8650\u4e4b\u7403', rarity: 5, role: 'knight' },
   { _id: 'spirits-breath', name: '\u7cbe\u9748\u6c23\u606f', rarity: 5, role: 'mage' },
   { _id: 'star-piercer', name: '\u9032\u653b\u865f\u89d2', rarity: 5, role: '' },

@@ -40,6 +40,6 @@ export const tw = {
   crPushDesc: '例子 : 如果你一速英雄被蘿季超車拉條，此處填寫25',
   crPushAlly: '% 速攻值變化(隊友拉條)',
   crPushAllyDesc: '例子 : 如果你的大將法濟斯被敵人攻擊，此處填寫15',
-  updateTitle: '1月2日, 更新 :',
-  updateContent: '新增角色: 「ae-KARINA、ae-GISELLE、死亡探究者雷伊」; 新增神器: 「光之框架、火箭拳擊手」',
+  updateTitle: '1月27日, 更新 :',
+  updateContent: '新增角色: 「雨脩、珠妮、達拉士、莉珈、達黎兒、斯坦、平衡的尤貝烏斯」; 新增神器: 「焚滅之球」',
 };
